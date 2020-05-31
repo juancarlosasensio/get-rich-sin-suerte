@@ -73,7 +73,7 @@ h3 {
 }
 
 a {
-  color: white;
+  color: inherit;
   font-weight: 500;
   transition: 200ms all;
 }
@@ -178,5 +178,14 @@ a {
 .visible-sm {
   @media(min-width: 992px) {
     display: none;
+  }
+}
+
+footer {
+  color: $black;
+
+  a {
+    color: $black;
+    text-decoration: none;
   }
 }

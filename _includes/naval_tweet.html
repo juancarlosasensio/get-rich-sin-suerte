@@ -1,0 +1,15 @@
+  <div class="thread-box">
+    <a href="{{ naval_tweet.url }}" class="absolute-link"></a>
+    <p class="thread-box--content">
+      {{ naval_tweet.content }}
+   </p>
+
+   <div class="thread-box--stats-container">
+    <div class="stats--meta">
+      <span><img class=""  src="assets/img/message-circle.svg" alt="repeats"> {{ naval_tweet.comments }}
+            <img src="assets/img/repeat.svg" alt="repeats">{{ naval_tweet.retweets }}
+            <img src="assets/img/heart.svg" alt="Heart">{{ naval_tweet.likes }}
+      </span>
+    </div>
+   </div>
+  </div>
