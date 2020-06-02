@@ -1,8 +1,13 @@
 <div class="main-container">
   <footer class="">
     <p>
-      Made by <a href="https://twitter.com/toysoldier182">@toysoldier182</a>.
-      Why wait on luck?
+      {% if site.lang == "en" %}
+        Made by <a href="https://twitter.com/toysoldier182">@toysoldier182</a>.
+        Why wait on luck?
+      {% elsif site.lang == "es" %}
+        Creado por <a href="https://twitter.com/toysoldier182">@toysoldier182</a>.
+        ¿Por qué esperar a tener suerte?
+      {% endif %}
     </p>
   </footer>
 </div>

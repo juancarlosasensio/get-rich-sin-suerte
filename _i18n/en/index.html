@@ -1,0 +1,14 @@
+<div class="main-container text-center">
+  <div class="thread-title">
+    <h1>
+      How to Get Rich (without getting lucky)
+    </h1>
+    <p>Original thread by @naval <a href="https://twitter.com/naval/status/1002103360646823936">here</a></p>
+  </div>
+
+  {% assign naval_tweets = site.data.naval_tweets %}
+  {% for naval_tweet in naval_tweets %}
+    {% include naval_tweet.html naval_tweet=naval_tweet %}
+  {% endfor %}
+
+</div>

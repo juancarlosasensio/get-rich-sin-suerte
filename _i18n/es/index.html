@@ -1,0 +1,14 @@
+<div class="main-container text-center">
+  <div class="thread-title">
+    <h1>
+      Cómo Llegar a Ser Rico (sin tener suerte)
+    </h1>
+    <p>Un thread escrito por @naval <a href="https://twitter.com/naval/status/1002103360646823936">aquí</a></p>
+  </div>
+
+  {% assign naval_tweets = site.data.naval_tweets_es %}
+  {% for naval_tweet in naval_tweets %}
+    {% include naval_tweet.html naval_tweet=naval_tweet %}
+  {% endfor %}
+
+</div>

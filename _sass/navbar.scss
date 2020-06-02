@@ -6,7 +6,12 @@
   z-index: 100;
   background: $black;
   color: white;
-  padding: 0.7rem 1rem;
+}
+
+.navbar-items--container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.7rem 1.5rem;
 
   ul {
     margin: 0;
@@ -18,5 +23,6 @@
     color: inherit;
     text-decoration: none;
   }
+
 }
 
