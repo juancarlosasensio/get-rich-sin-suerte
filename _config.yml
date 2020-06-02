@@ -9,7 +9,10 @@ url: "https://get-rich-sin-suerte.netlify.app/" # the base hostname & protocol f
 twitter_username: toysoldier182
 github_username:  juancarlosasensio
 
+languages: ["es", "en"]
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
