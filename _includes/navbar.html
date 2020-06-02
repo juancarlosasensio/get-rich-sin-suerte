@@ -1,9 +1,12 @@
-<aside>
-  <div class="navbar-wrapper">
-    <nav>
-      <ul>
-        <li class="bold logo"><a href="{{ site.url }}">Get Rich Sin Suerte</a></li>
-      </ul>
-    </nav>
-  </div>
+<aside class="navbar-wrapper">
+  <nav class="navbar-items--container">
+    <ul>
+      <li class="bold logo"><a href="{{ site.baseurl }}">Get Rich Sin Suerte</a></li>
+    </ul>
+    {% if site.lang == "en" %}
+      <a href="{{ site.baseurl_root }}/es" >{{ site.data.languages.es.icon }}{{ site.data.languages.es.label }}</a>
+    {% elsif site.lang == "es" %}
+      <a href="{{ site.url }}" >{{ site.data.languages.en.icon }}{{ site.data.languages.en.label }}</a>
+    {% endif %}
+  </nav>
 </aside>
