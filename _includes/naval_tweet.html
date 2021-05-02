@@ -1,5 +1,5 @@
   <div class="thread-box">
-    <a href="{{ naval_tweet.url }}" class="absolute-link"></a>
+    <a href="{{ naval_tweet.url }}" class="absolute-link" aria-label="{{ naval_tweet.content | truncatewords: 5 }}"></a>
     <p class="thread-box--content">
       {{ naval_tweet.content }}
    </p>

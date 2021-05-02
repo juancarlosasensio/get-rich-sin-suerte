@@ -4,9 +4,9 @@
       <li class="bold logo"><a href="{{ site.baseurl }}">Get Rich Sin Suerte</a></li>
     </ul>
     {% if site.lang == "en" %}
-      <a href="{{ site.baseurl_root }}/es" >{{ site.data.languages.es.icon }}{{ site.data.languages.es.label }}</a>
+      <a href="{{ site.baseurl_root }}/es" >{% t navbar.icon %}{% t navbar.label %}</a>
     {% elsif site.lang == "es" %}
-      <a href="{{ site.url }}" >{{ site.data.languages.en.icon }}{{ site.data.languages.en.label }}</a>
+      <a href="{{ site.url }}" >{% t navbar.icon %}{% t navbar.label %}</a>
     {% endif %}
   </nav>
 </aside>
