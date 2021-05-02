@@ -1,0 +1,11 @@
+html_lang: "en-US"
+
+navbar:
+  label: EN
+  icon: 🥧
+
+titles:
+  global: "How to Get Rich (without getting lucky)"
+  home: "Home"  
+
+description: "Learn how to get rich by seeking wealth, not money or status. Tweets by Naval Ravikant."
